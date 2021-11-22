@@ -3,8 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.2"
 
-# Use local checkout of Rails
-gem "rails", path: "/Users/carl/repos/rails"
+gem "rails", github: "rails/rails", ref: "main"
 
 # The traditional bundling and transpiling asset pipeline for Rails.
 gem "sprockets-rails", ">= 2.0.0"

@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/carl/repos/rails
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: 6e1694275007b94b8112455ac53e8a345938376e
+  ref: main
   specs:
     actioncable (7.0.0.alpha2)
       actionpack (= 7.0.0.alpha2)
